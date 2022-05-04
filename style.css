@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    height: 90vh;
+    width: 90vh;
+    border: 3px solid brown;
+}
+
+.cell {
+    width: calc(100%/8);
+    height: calc(100%/8);
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
+
+.red-on {
+    background-image: url("img/red-soldier.png");
+    background-size: contain;
+}
+
+.black-on {
+    background-image: url("img/black-soldier.png");
+    background-size: contain;
+}
+
+.clicked {
+    background-color: gold;
+}
+
+.open-spot {
+    background-color: rgb(254, 240, 158);
+}
